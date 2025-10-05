@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BDF8F5"
+    tools:context=".BicepCurl">
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="340dp"
+        android:layout_height="165dp"
+        android:text="&#8226; เป้าหมาย: เสริมสร้างกล้ามเนื้อแขนส่วนหน้า&#10;&#8226; วิธีทำ: &#10;&#9;&#9;&#9;- ถือดัมเบลหรือขวดน้ำในมือ หงายฝ่ามือขึ้น&#10;&#9;&#9;&#9;- งอข้อศอก ยกน้ำหนักขึ้นมาที่ระดับไหล่&#10;&#9;&#9;&#9;- ค่อย ๆ ลดแขนลงกลับสู่ท่าเริ่มต้น&#10;&#9;&#9;&#9;- ทำ 10-15 ครั้ง 2-3 เซต"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.542" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="276dp"
+        android:layout_height="54dp"
+        android:gravity="center"
+        android:text="Bicep Curl (งอแขน)"
+        android:textColor="#578ECA"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.043" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="243dp"
+        android:layout_height="191dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.175"
+        app:srcCompat="@drawable/bicepcurl" />
+
+    <com.google.android.exoplayer2.ui.StyledPlayerView
+        android:id="@+id/playerView"
+        android:layout_width="310dp"
+        android:layout_height="196dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.891" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BDF8F5"
+    tools:context=".StraightLegRaise">
+
+    <TextView
+        android:id="@+id/textView67"
+        android:layout_width="336dp"
+        android:layout_height="186dp"
+        android:text="&#8226; เป้าหมาย: เพิ่มความแข็งแรงของกล้ามเนื้อต้นขาโดยไม่กดดันข้อเข่า&#10;&#8226; วิธีทำ: &#10;&#9;&#9;&#9;- นอนหงาย ขาข้างหนึ่งเหยียดตรง อีกข้างงอเข่า&#10;&#9;&#9;&#9;- เกร็งต้นขาข้างที่เหยียด แล้วยกขึ้นประมาณ 30-90 ซม.&#10;&#9;&#9;&#9;- ค้างไว้ 5-10 วินาที แล้วค่อย ๆ ลดลง&#10;&#9;&#9;&#9;- ทำซ้ำ 10-15 ครั้ง 2-3 เซต แล้วสลับข้าง"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.517" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="266dp"
+        android:layout_height="173dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.173"
+        app:srcCompat="@drawable/straightlegraise" />
+
+    <TextView
+        android:id="@+id/textView66"
+        android:layout_width="256dp"
+        android:layout_height="58dp"
+        android:gravity="center"
+        android:text="Straight Leg Raise&#10;(ยกขาตรง)"
+        android:textColor="#578ECA"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <com.google.android.exoplayer2.ui.StyledPlayerView
+        android:id="@+id/playerView"
+        android:layout_width="310dp"
+        android:layout_height="196dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.904" />
+</androidx.constraintlayout.widget.ConstraintLayout>

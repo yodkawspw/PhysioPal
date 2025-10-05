@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BDF8F5 "
+    tools:context=".GluteBridge">
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="336dp"
+        android:layout_height="197dp"
+        android:text="&#8226; เป้าหมาย: เสริมสร้างกล้ามเนื้อสะโพก ก้น และกระดูกเชิงกราน&#10;&#8226; วิธีทำ: &#10;&#9;&#9;&#9;- นอนหงาย ชันเข่าขึ้น วางเท้าราบกับพื้น&#10;&#9;&#9;&#9;- เกร็งกล้ามเนื้อก้นและยกสะโพกขึ้นให้เป็นเส้นตรงกับเข่า&#10;&#9;&#9;&#9;- ค้างไว้ 5-10 วินาที แล้วค่อย ๆ ลดลง&#10;&#9;&#9;&#9;- ทำซ้ำ 10-15 ครั้ง 2-3 เซต"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.558" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="258dp"
+        android:layout_height="52dp"
+        android:gravity="center"
+        android:text="Glute Bridge (สะพานก้น)"
+        android:textColor="#578ECA"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="241dp"
+        android:layout_height="197dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.164"
+        app:srcCompat="@drawable/glutebridge" />
+
+    <com.google.android.exoplayer2.ui.StyledPlayerView
+        android:id="@+id/playerView"
+        android:layout_width="310dp"
+        android:layout_height="196dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.925" />
+</androidx.constraintlayout.widget.ConstraintLayout>

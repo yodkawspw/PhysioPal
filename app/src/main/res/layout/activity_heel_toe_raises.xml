@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BDF8F5"
+    tools:context=".HeelToeRaises">
+
+    <TextView
+        android:id="@+id/textView80"
+        android:layout_width="325dp"
+        android:layout_height="202dp"
+        android:text="&#8226; เป้าหมาย: เสริมสร้างกล้ามเนื้อรอบข้อเท้าและช่วยปรับปรุงการทรงตัว&#10;&#8226; วิธีทำ: &#10;&#9;&#9;&#9;- ยืนตัวตรง เท้าห่างกันประมาณช่วงไหล่&#10;&#9;&#9;&#9;- เขย่งปลายเท้าขึ้นให้สูงที่สุด ค้างไว้ 2-3 วินาที แล้วค่อย ๆ ลดลง&#10;&#9;&#9;&#9;- จากนั้นยกปลายเท้าขึ้นโดยให้ส้นเท้าแตะพื้น ค้างไว้ 2-3 วินาที&#10;&#9;&#9;&#9;- ทำซ้ำ 10-15 ครั้ง 2-3 เซต"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.529" />
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="258dp"
+        android:layout_height="180dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.168"
+        app:srcCompat="@drawable/heeltoeraises" />
+
+    <TextView
+        android:id="@+id/textView79"
+        android:layout_width="256dp"
+        android:layout_height="58dp"
+        android:gravity="center"
+        android:text="Heel and Toe Raises&#10;(ยกส้นและปลายเท้า)"
+        android:textColor="#578ECA"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <com.google.android.exoplayer2.ui.StyledPlayerView
+        android:id="@+id/playerView"
+        android:layout_width="310dp"
+        android:layout_height="196dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.919" />
+</androidx.constraintlayout.widget.ConstraintLayout>

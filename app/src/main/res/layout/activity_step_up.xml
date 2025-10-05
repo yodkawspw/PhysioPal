@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BDF8F5"
+    tools:context=".StepUp">
+
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="336dp"
+        android:layout_height="186dp"
+        android:text="&#8226; เป้าหมาย: เพิ่มความแข็งแรงของต้นขาและปรับปรุงความมั่นคงของข้อเข่า&#10;&#8226; วิธีทำ: &#10;&#9;&#9;&#9;- ยืนหน้าขั้นบันไดหรือกล่องเตี้ย ๆ&#10;&#9;&#9;&#9;- ก้าวเท้าข้างหนึ่งขึ้น และใช้แรงจากต้นขาดันตัวขึ้น&#10;&#9;&#9;&#9;- ลดตัวลงช้า ๆ กลับสู่ท่าเริ่มต้น&#10;&#9;&#9;&#9;- ทำซ้ำ 10-15 ครั้ง 2-3 เซต แล้วสลับข้าง"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.533" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="273dp"
+        android:layout_height="183dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.169"
+        app:srcCompat="@drawable/stepup" />
+
+    <TextView
+        android:id="@+id/textView70"
+        android:layout_width="256dp"
+        android:layout_height="58dp"
+        android:gravity="center"
+        android:text="Step Up (ก้าวขึ้นบันได)"
+        android:textColor="#578ECA"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <com.google.android.exoplayer2.ui.StyledPlayerView
+        android:id="@+id/playerView"
+        android:layout_width="310dp"
+        android:layout_height="196dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.904" />
+</androidx.constraintlayout.widget.ConstraintLayout>

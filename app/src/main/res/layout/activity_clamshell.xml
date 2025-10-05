@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BDF8F5"
+    tools:context=".Clamshell">
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="335dp"
+        android:layout_height="162dp"
+        android:text="&#8226; เป้าหมาย: เสริมสร้างกล้ามเนื้อสะโพกด้านข้าง ลดอาการปวดสะโพก&#10;&#8226; วิธีทำ: &#10;&#9;&#9;&#9;- นอนตะแคง งอเข่า 90 องศา เท้าแตะกัน&#10;&#9;&#9;&#9;- เปิดเข่าข้างบนขึ้นโดยให้เท้ายังคงติดกัน&#10;&#9;&#9;&#9;- ค่อย ๆ ปิดเข่าลงกลับสู่ท่าเริ่มต้น&#10;&#9;&#9;&#9;- ทำซ้ำ 10-15 ครั้ง 2-3 เซต แล้วสลับข้าง"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.528" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="258dp"
+        android:layout_height="52dp"
+        android:gravity="center"
+        android:text="Clamshell&#10;(หอยเปิดปิดสะโพก)"
+        android:textColor="#578ECA"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="301dp"
+        android:layout_height="193dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.171"
+        app:srcCompat="@drawable/clamshell" />
+
+    <com.google.android.exoplayer2.ui.StyledPlayerView
+        android:id="@+id/playerView"
+        android:layout_width="310dp"
+        android:layout_height="196dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.897" />
+</androidx.constraintlayout.widget.ConstraintLayout>

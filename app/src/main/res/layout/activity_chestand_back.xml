@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BDF8F5"
+    tools:context=".ChestandBack" >
+
+    <Button
+        android:id="@+id/bBT"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#90D192"
+        android:text="Bridge"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.825" />
+
+    <Button
+        android:id="@+id/shouldersBT"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#90D192"
+        android:text="Shoulder Squeeze"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.918" />
+
+    <Button
+        android:id="@+id/ccBT"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#90D192"
+        android:text="Cat-Cow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.733" />
+
+    <Button
+        android:id="@+id/csBT"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#90D192"
+        android:text="Chest Stretch"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.647" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ท่ากายภาพบำบัด"
+        android:textColor="#578ECA"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.564" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:shadowColor="#0B0B0B"
+        android:shadowRadius="5"
+        android:text="หน้าอกและหลัง"
+        android:textAllCaps="false"
+        android:textColor="#FAFAFA"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="344dp"
+        android:layout_height="295dp"
+        android:justificationMode="inter_character"
+        android:text="&#9;&#9;&#9;&#9;&#9;หน้านี้รวบรวมท่ากายภาพบำบัดสำหรับ กล้ามเนื้อหน้าอกและหลัง ช่วยบรรเทาอาการปวดหลังจากการนั่งทำงานนาน ๆ ป้องกันไหล่ห่อ และเพิ่มความยืดหยุ่นของกระดูกสันหลัง ทำให้ท่าทางดีขึ้นและลดความเสี่ยงของอาการบาดเจ็บ&#10;&#10;📌 เหมาะสำหรับ:  ผู้ที่มีอาการปวดหลัง ไหล่ห่อ หรือออฟฟิศซินโดรม, ผู้ที่ต้องการเสริมความแข็งแรงของหลังและหน้าอก, และผู้ที่ต้องการฟื้นฟูหลังจากอาการบาดเจ็บ หรือการผ่าตัดกระดูกสันหลัง&#10;&#10;💡 เคล็ดลับ:  ทำท่าฝึกช้า ๆ และควบคุมการเคลื่อนไหว หลีกเลี่ยงการฝืนหรือทำเกินขีดจำกัดของร่างกาย หากรู้สึกปวดมากผิดปกติ ควรหยุดและปรึกษานักกายภาพบำบัด"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.206" />
+</androidx.constraintlayout.widget.ConstraintLayout>

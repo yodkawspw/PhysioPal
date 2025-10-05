@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PhysioPal"
+        tools:targetApi="31">
+        <activity
+            android:name=".RecommendForm"
+            android:exported="false" />
+        <activity
+            android:name=".ExerciseTimer"
+            android:exported="false" />
+        <activity
+            android:name=".ResistanceBandAnkle"
+            android:exported="false" />
+        <activity
+            android:name=".HeelToeRaises"
+            android:exported="false" />
+        <activity
+            android:name=".ToeCurls"
+            android:exported="false" />
+        <activity
+            android:name=".AnkleCircles"
+            android:exported="false" />
+        <activity
+            android:name=".StepUp"
+            android:exported="false" />
+        <activity
+            android:name=".HeelSlide"
+            android:exported="false" />
+        <activity
+            android:name=".StraightLegRaise"
+            android:exported="false" />
+        <activity
+            android:name=".QuadSet"
+            android:exported="false" />
+        <activity
+            android:name=".PelvicTilt"
+            android:exported="false" />
+        <activity
+            android:name=".Clamshell"
+            android:exported="false" />
+        <activity
+            android:name=".GluteBridge"
+            android:exported="false" />
+        <activity
+            android:name=".HipFlexor"
+            android:exported="false" />
+        <activity
+            android:name=".ForearmPS"
+            android:exported="false" />
+        <activity
+            android:name=".WristRotation"
+            android:exported="false" />
+        <activity
+            android:name=".FistClench"
+            android:exported="false" />
+        <activity
+            android:name=".WristFlexor"
+            android:exported="false" />
+        <activity
+            android:name=".TricepsStretch"
+            android:exported="false" />
+        <activity
+            android:name=".BicepCurl"
+            android:exported="false" />
+        <activity
+            android:name=".WallWalk"
+            android:exported="false" />
+        <activity
+            android:name=".ShoulderRoll"
+            android:exported="false" />
+        <activity
+            android:name=".ShoulderSqueeze"
+            android:exported="false" />
+        <activity
+            android:name=".Bridge"
+            android:exported="false" />
+        <activity
+            android:name=".CatCow"
+            android:exported="false" />
+        <activity
+            android:name=".ChestStretch"
+            android:exported="false" />
+        <activity
+            android:name=".SuboccipitalStretch"
+            android:exported="false" />
+        <activity
+            android:name=".NeckRotation"
+            android:exported="false" />
+        <activity
+            android:name=".NeckSideStretch"
+            android:exported="false" />
+        <activity
+            android:name=".ChinTuck"
+            android:exported="false" />
+        <activity
+            android:name=".HeadandNeck"
+            android:exported="false" />
+        <activity
+            android:name=".AnkleandFoot"
+            android:exported="false" />
+        <activity
+            android:name=".LegandKnee"
+            android:exported="false" />
+        <activity
+            android:name=".HipandPelvis"
+            android:exported="false" />
+        <activity
+            android:name=".EWH"
+            android:exported="false" />
+        <activity
+            android:name=".ShoulderandArm"
+            android:exported="false" />
+        <activity
+            android:name=".ChestandBack"
+            android:exported="false" />
+        <activity
+            android:name=".TherapyExercise"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
